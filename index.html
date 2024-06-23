@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: darkblue;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: center;
+            align-items: center;
+        }
+        img{
+            width: 500px;
+            border-radius: 100px;
+            box-shadow: 0 0 20px white;
+            
+            
+        }
+        :root{
+            --n: black;
+            --r: crimson;
+        }
+        .corazon-partido{
+            width: 64px;
+            height: 64px;
+            background-color: var(--n);
+            box-shadow: 
+            64px 64px 0 var(--n),
+            128px -64px 0 var(--n),
+            192px 0px var(--n),
+            256px -64px 0 var(--n),
+            320px -64px 0 var(--n),
+            384px 0px 0 var(--n),
+            64px 0px 0 var(--r),
+            128px 0px 0 var(--r),
+            256px 0px 0 var(--r),
+            320px 0px 0 var(--r);
+        }
+        
+        </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="corazon-partido"></div>
+
+    <section>
+        <img src="" alt="">
+    </section>
+</body>
+</html>
